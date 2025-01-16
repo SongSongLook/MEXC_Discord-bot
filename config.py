@@ -1,0 +1,11 @@
+DISCORD_TOKEN = 'YOUR_DISCORD_TOKEN'
+MEXC_API_BASE = 'https://api.mexc.com'
+UPDATE_INTERVAL = 15  # 定期更新的時間間隔（秒）
+UPDATE_INTERVAL_Pf = 86400
+SYMBOLS = ['BTCUSDT', 'ETHUSDT', 'XRPUSDT']  # 定期更新的預設交易對
+PORTFOLIO = {
+    "BTCUSDT": 1,
+    "ETHUSDT": 1,
+    "XRPUSDT": 1
+}
+BASE_PORTFOLIO_VALUE = 10000  # 基準值
