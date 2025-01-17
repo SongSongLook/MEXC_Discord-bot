@@ -151,7 +151,7 @@ async def update_portfolio(message):
             continue
         
         # 組裝輸出
-        content = ">>> 💹\nPortfolio 資料:\n"
+        content = ">>> **💹Portfolio** 資料:\n"
         for item in portfolio_data:
             if item['value'] is not None:
                 content += (
